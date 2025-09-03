@@ -2,14 +2,18 @@
 
 
 int main(){
-    int populacao = 12325000;
-    float area = 1521.11;
+    unsigned int populacao = 10;
+    float area = 10.00;
 
-    double  densidade;
+    double  densidade = 10.00;
 
-    double pib = 699280000000.00;
+    double pib = 10.00;
 
     double pibPerCapita;
+
+    float superPoder = populacao + area + pib + densidade;
+
+    printf("Super poder: %.2f \n", superPoder);
 
 
 
